@@ -37,3 +37,27 @@ body {
   background-clip: text;
   color: transparent;
 }
+.container-class{
+ width: 95%;
+ margin-left: 5%;
+ padding-bottom: 4rem;
+}
+.custom-dot-list-style{
+ width: 5rem;
+}
+.react-multi-carousel-dot-list{
+  top: 94%;
+  z-index: 1000;
+}
+.react-multi-carousel-dot button{
+width: 30px !important;
+height: 2px !important;
+border-radius: .7rem !important;
+}
+.react-multi-carousel-dot--active button{
+  background-color: #FF3D00 !important;
+  border: 2px solid #FF3D00 !important;
+}
+react-multi-carousel-dot--active button {
+  background: #FF3D00;
+}
