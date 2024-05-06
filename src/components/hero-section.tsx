@@ -48,8 +48,9 @@ export const Hero = () => {
         onRequestChange={setActiveSlide}
         itemsToShow={2}
         speed={4000}
-        autoplay={true}
+        autoplay={false}
         centerMode
+        itemsToScroll={1}
       >
         {List.map((item, index) => (
           <div
