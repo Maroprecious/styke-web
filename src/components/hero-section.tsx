@@ -46,27 +46,27 @@ export const Hero = () => {
         }}
         activeSlideIndex={activeSlide}
         onRequestChange={setActiveSlide}
+        delay={1000}
         itemsToShow={2}
-        speed={4000}
+        speed={10000}
         autoplay={false}
         centerMode
-        itemsToScroll={1}
+        itemsToScroll={2}
       >
         {List.map((item, index) => (
           <div
             style={{
-              width: 900,
-              height: 'auto',
-              border: "15px solid white",
+              height: "auto",
               textAlign: "center",
               lineHeight: "200px",
               boxSizing: "border-box",
             }}
+            className="lg:w-[900px] w-[300px] md:w-[350px] lg:border-[15px] md:border-[7px] border-[5px] border-white"
             key={index}
           >
             <img
               src={item.img}
-              style={{ width: "100%" }}
+              style={{ width: "900px" }}
               className="h-[200px] lg:h-[500px] lg:object-cover object-contain"
             />
           </div>
