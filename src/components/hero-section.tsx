@@ -47,7 +47,7 @@ export const Hero = () => {
         activeSlideIndex={activeSlide}
         onRequestChange={setActiveSlide}
         itemsToShow={2}
-        speed={200}
+        speed={4000}
         autoplay={true}
         centerMode
       >
