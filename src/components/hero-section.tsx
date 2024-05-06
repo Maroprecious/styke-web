@@ -72,7 +72,7 @@ export const Hero = () => {
           </div>
         ))}
       </Carousel>
-      <div className="bg-line pb-6 mt-6 w-full bg-cover lg:bg-top bg-center h-full">
+      <div className="bg-line pb-6 mt-6 w-full bg-cover bg-top h-full">
         <div className="flex flex-col justify-center items-center">
           <h4
             className={`${poppins.className} lg:pt-24 pt-6 text-center text-[25px] lg:text-[35px] text-lightblue font-semibold`}
@@ -80,7 +80,7 @@ export const Hero = () => {
             What We Do
           </h4>
           <div className="border-b-[3px] rounded-[.4rem] w-[100px] border-b-red" />
-          <div className="flex flex-col lg:w-[85%] w-[90%] max-w-[1200px]lg:gap-[16rem] gap-[4rem] lg:pt-20 pt-12 mx-auto justify-center items-center">
+          <div className="flex flex-col lg:w-[85%] w-[90%] max-w-[1200px] lg:gap-[16rem] gap-[4rem] lg:pt-20 pt-12 mx-auto justify-center items-center">
             {Services.map((ele, id) => (
               <div
                 key={id}
