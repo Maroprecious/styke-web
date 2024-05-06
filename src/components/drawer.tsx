@@ -40,7 +40,7 @@ export const PlacementExample = () => {
           <MdMenu size={24}/>
         </div>
       </div>
-      <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
+      <Drawer placement="top" onClose={onClose} isOpen={isOpen}>
         <DrawerOverlay />
         <DrawerContent>
           <DrawerBody>
